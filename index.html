@@ -1,0 +1,140 @@
+<HTML>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Yahir's Biography Page</h1>
+  <p>"You Are Your Own Competition"</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Instagram</a>
+  <a href="#">Snapchat</a>
+  <a href="#">Twitter</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <H2><p align="center">Cross Country</p></H2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+  
+  <div class="column middle">
+    <H2><p align="center">Shafter High School</p></H2>
+    <p><p align="center">Hello everyone! My name is Yahir Dimas and I am a sophomore at Shafter High School. I am an excellent academic student with straight A's in all my classes. I enjoy working hard and participating in sports such as cross country, soccer, and track & field.</p>
+    <img src="picture.jpg" alt="Runner" class="center" width="640" height="320">
+  </div>
+  
+  <div class="column side">
+    <H2><p align="center">Track & Field</p></H2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Class of 2022</p>
+</div>
+  
+</body>
+</html>
+
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+
+    <link rel="stylesheet" type="text/css" href="Yahir.css">
+
+<BODY>
+
+<b></b>
+
+
+<H1><p align="center"></p></H1>
+
+<!--  Can you add an image? a link? another feature? -->
+
+</BODY>
+
+</HTML>
